@@ -9,3 +9,7 @@ def hello():
 @app.route("/hello")
 def html():
     return render_template("hello.html")
+
+@app.route("/goodbye")
+def goodbye():
+    return render_template("goodbye.html")
